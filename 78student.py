@@ -24,3 +24,11 @@ while adding:
         adding = False
     else:
         choice = int(input("Enter your choice(1. Add Student, 2. View Student): "))
+
+
+# View this code: https://raw.githubusercontent.com/technologychannel/PythonB3/refs/heads/master/78student.py
+# Create Stock Management 
+# Product Name, Price, Qty [Fields]
+# Functions:
+# 1. Add Product
+# 2. View Product
