@@ -1,11 +1,10 @@
 # Read CSV File
 import csv
-# linenumber = 0
-# with open('data.csv', 'r') as csv_file:
-#     csv_reader = csv.reader(csv_file)
-#     next(csv_reader)
-#     for line in csv_reader:
-#         print(f"{line[0]} salary is {line[1]} and person is {line[2]} years old.")
+with open('data.csv', 'r') as csv_file:
+    csv_reader = csv.reader(csv_file)
+    next(csv_reader)
+    for line in csv_reader:
+        print(f"{line[0]} salary is {line[1]} and person is {line[2]} years old.")
 
 
 ### Add Data
