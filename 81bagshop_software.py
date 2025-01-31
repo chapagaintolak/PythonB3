@@ -2,7 +2,6 @@ import csv
 from turtle import update
 from prettytable import PrettyTable
 def display_menu():
-    """Display the menu options in a PrettyTable format."""
     print("\nWelcome to ABC Bagshop Software\n")
     
     menu_table = PrettyTable()
@@ -15,6 +14,7 @@ def display_menu():
     menu_table.add_row(["3", "Delete Product"])
     menu_table.add_row(["4", "Update Product"])
     menu_table.add_row(["5", "Search Product"])
+    menu_table.add_row(["6", "Show Product by ID"])
 
     print(menu_table)  # Display the menu table
 def list_product():
@@ -131,3 +131,14 @@ elif choice == 6:
     show_by_id(id)
 else:
     print("Invalid Choice")
+    
+
+# Create Visitor Entry System For Bank [Nabil Bank]
+# ID, Date, Visitor Name, Purpose, 
+# Add Following Option
+# "1", "Add Visitor"
+# "2", "List Visitor"
+# "3", "Delete Visitor"
+# "4", "Update Visitor"
+# "5", "Search Visitor"
+# "6", "Show Visitor by ID"
