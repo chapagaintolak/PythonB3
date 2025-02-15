@@ -310,7 +310,7 @@ def refresh_table():
 # Main GUI setup
 root = Tk()
 root.title("Visitor Entry System")
-root.geometry("400x300")
+root.geometry("350x300")
 
 # Main table
 columns = ("ID", "Date", "Name", "Purpose")
