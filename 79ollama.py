@@ -7,3 +7,4 @@ response = ollama.chat(model="deepseek-r1:1.5b", messages=[{"role": "user", "con
 
 # Print the response from the model
 print(response['message']['content'])
+

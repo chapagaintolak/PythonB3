@@ -2,7 +2,7 @@
 import csv
 with open('data.csv', 'r') as csv_file:
     csv_reader = csv.reader(csv_file)
-    next(csv_reader)
+    next(csv_reader) # to remove header row
     for line in csv_reader:
         print(f"{line[0]} salary is {line[1]} and person is {line[2]} years old.")
 

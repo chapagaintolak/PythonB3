@@ -8,7 +8,7 @@ print(country_capital["India"])
 
 print(type(country_capital))
 
-# Print Only Keys
+# Print Only Keys and values
 print(list(country_capital.keys()))
 print(list(country_capital.values()))
 

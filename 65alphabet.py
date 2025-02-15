@@ -27,7 +27,6 @@ learn_alphabet = {
     "z": ["Zebra", "Zoo", "Zebra"]
 }
 
-
 user_input = input("Enter a character: ").lower()
 if user_input in learn_alphabet:
     print(f"Word start with {user_input} are: ")

@@ -1,4 +1,4 @@
 import os
 
 # os.mkdir("Photos")
-os.rmdir("Photos")
+os.mkdir("Photos1")

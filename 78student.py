@@ -2,7 +2,7 @@ print("Student Management Software")
 print("1. Add Student")
 print("2. View Student")
 choice = int(input("Enter your choice: "))
-adding = True
+adding = True  # multiple students can be added
 
 while adding:
     if choice == 1:
