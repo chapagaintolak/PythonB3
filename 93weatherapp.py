@@ -1,5 +1,5 @@
 import requests
-api_key = "ff7eabb4b719111d9992a5c13f3e3ad5"
+api_key = ""
 
 place = input("Enter the city to find weather: ")
 
